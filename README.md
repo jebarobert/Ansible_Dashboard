@@ -1,7 +1,7 @@
 # Getting Started with basic React Dashboard
 
 ![Watch the video](https://github.com/jebarobert/ansible_dashboard/assets/Recording 2024-07-06 193939.mp4)
-
+<video controls src="Recording 2024-07-06 193939.mp4" title="Title"></video>
 ## Create a React App:
 Run the following command in your terminal: **npx create-react-app my-app**.
 
