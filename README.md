@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Getting Started with basic React Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Watch the video](https://github.com/jebarobert/ansible_dashboard/assets/Recording 2024-07-06 193939.mp4)
 
-## Available Scripts
+## Create a React App:
+Run the following command in your terminal: **npx create-react-app my-app**.
 
-In the project directory, you can run:
+## Install Bootstrap:
+To use Bootstrap in your React app, you can install it by running: **npm install bootstrap**.
 
-### `npm start`
+## The Project Structure:
+After setting up all the components the project structure will look like this:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/jebarobert/ansible_dashboard/assets/73730814/844a91dd-709f-4b9b-8255-cb52eb419ffe)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Within the component, there's a structured layout:
 
-### `npm test`
+- A header (imported from Header.js) at the top.
+- A personalized greeting message for the user.
+- A display of course categories with counts and colors.
+- A list of courses (imported from Courses.js), including their titles and status icons.
+- A section displaying test schedules (imported from TestSchedule.js).
+- The background of the entire content area is styled with a light purple color.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Final Steps:
+We've assembled all the components, and now it's time to launch the live dashboard by running 'npm start'.
 
-### `npm run build`
+The dashboard will look like this:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/jebarobert/ansible_dashboard/assets/73730814/79cfbe27-df91-4182-a792-a540df3a3289)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Learning!
