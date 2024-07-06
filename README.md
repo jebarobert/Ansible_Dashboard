@@ -2,7 +2,11 @@
 
 [![Watch the video](https://github.com/jebarobert/ansible_dashboard/assets/73730814/79cfbe27-df91-4182-a792-a540df3a3289)](https://github.com/jebarobert/ansible_dashboard/tree/dev/assests/dashboardvideo.mp4)
 
-<video controls src="20240706-1502-13.7228961.mp4" title="Title"></video>
+
+https://github.com/jebarobert/ansible_dashboard/assets/73730814/311f5021-1d2b-4aed-ab96-194bde9e277e
+
+
+
 ## Create a React App:
 Run the following command in your terminal: **npx create-react-app my-app**.
 
