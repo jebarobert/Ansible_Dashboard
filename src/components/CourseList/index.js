@@ -7,32 +7,38 @@
             {
                 title: 'Web Design',
                 level: 'Advance',
-                date: '2nd Jan 2023',
+                date: '2nd Jan 2024',
                 status: 'Completed'
             },
             {
                 title: 'React',
                 level: 'Advance',
-                date: '9th April 2023',
+                date: '9th April 2024',
                 status: 'On Going',
             },
             {
                 title: 'MongoDB',
                 level: 'Advance',
-                date: '5th June 2023',
+                date: '5th July 2024',
                 status: 'Interested',
             },
             {
                 title: 'Angular',
                 level: 'Beginner',
-                date: '7th July 2023',
+                date: '7th July 2024',
                 status: 'Interested',
             },
             {
                 title: 'CSS',
                 level: 'Intermediate',
-                date: '2nd Feb 2023',
+                date: '2nd Feb 2024',
                 status: 'Completed',
+            },
+            {
+                title: 'DevOps',
+                level: 'Advanced',
+                date: '2nd Aug 2024',
+                status: 'Interested',
             },
         ];
 

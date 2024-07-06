@@ -14,6 +14,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="col-6 d-flex justify-content-end align-items-center gap-3">
+                    <div><label>Logout</label></div>
                     <div className="rounded-circle overflow-hidden">
                         {/* Your profile photo */}
                         <img src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?w=740&t=st=1694269159~exp=1694269759~hmac=c8c65095b670091331a550b674305943e6a42c710a45b7356ecfe851d77b916b" alt="Profile" className="img-fluid profile" />

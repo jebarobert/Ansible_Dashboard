@@ -4,6 +4,7 @@ import Courses from '../Courses'
 import CourseList from '../CourseList'
 import "./index.css"
 import TestSchedule from '../TestSchedule'
+import Typewriter from 'typewriter-effect'
 
 const courseDetails = [
     { id: 1, total: 2, text: 'Current Courses ', color: 'orange' },
@@ -15,7 +16,17 @@ const Body = () => {
     return (
         <div className='w-100 course-wrapper'>
             <Header />
-            <h4 className='mx-3 d-block'>Welcome Back, John</h4>
+            <h4 className='mx-3 d-block'>
+            <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("Welcome Back, Jeba")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Lets start something new")
+                        .start();
+                }}
+            /></h4>
             <div className='d-flex justify-content-around'>
                 <div>
                     <div className='d-flex gap-5 mt-4 '>
